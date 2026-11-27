@@ -1,0 +1,36 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local credentials
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local databases and generated training data
+database/*.db
+.datasets/
+data/raw/
+data/processed/
+
+# Model training output that is too large for a normal GitHub repository
+models/yield_model.joblib
+models/*_best.keras
+models/*_checkpoint.keras
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter and generated temporary output
+.ipynb_checkpoints/
+*.log
+logs/
+tmp/
+temp/
+.cache/
