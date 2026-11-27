@@ -1,0 +1,20 @@
+{
+  "profiles": [],
+  "notice": "No crop rankings are enabled until locally validated, season- and region-specific profiles with references are added. Do not copy generic crop lists into this file as if they were measured suitability data.",
+  "required_profile_fields": {
+    "crop": "Crop name.",
+    "soil_classes": "List of model soil labels that local agronomic sources support.",
+    "regions": "District/state names or Any, supported by regional sources.",
+    "seasons": "Locally validated sowing seasons.",
+    "temperature_c_range": "Validated seasonal temperature range in degrees Celsius.",
+    "seasonal_rainfall_mm_range": "Validated seasonal rainfall range in millimetres.",
+    "irrigation_options": "Supported values such as Rainfed, Supplemental, or Assured.",
+    "water_requirement": "Qualitative crop water requirement with a source.",
+    "why": "Evidence-based explanation for the profile.",
+    "growing_conditions": "Expected local growing conditions.",
+    "improvements": "Soil improvements supported by local sources.",
+    "cultivation": "Basic cultivation advice supported by local sources.",
+    "sources": "One or more objects with title and URL."
+  },
+  "score_note": "Scores are rule-based comparisons against configured profile ranges; they are not probabilities, yield predictions, or guarantees."
+}

@@ -1,0 +1,88 @@
+{
+  "reference_profiles": [
+    {
+      "name": "Local laboratory profile — thresholds required",
+      "region": "*",
+      "soil_type": "*",
+      "crop": "*",
+      "nutrient_basis": "Not configured. Enter cutoffs from a local soil laboratory or agricultural extension source.",
+      "sources": [],
+      "thresholds": {
+        "nutrients": {
+          "nitrogen": {
+            "low_upper": null,
+            "medium_upper": null
+          },
+          "phosphorus": {
+            "low_upper": null,
+            "medium_upper": null
+          },
+          "potassium": {
+            "low_upper": null,
+            "medium_upper": null
+          }
+        },
+        "ph": {
+          "acidic_upper": null,
+          "alkaline_lower": null
+        },
+        "organic_carbon": {
+          "low_upper": null,
+          "medium_upper": null
+        },
+        "moisture": {
+          "dry_upper": null,
+          "wet_lower": null
+        }
+      }
+    },
+    {
+      "name": "TNAU available NPK rating chart — Tamil Nadu scope",
+      "region": "Tamil Nadu",
+      "soil_type": "*",
+      "crop": "*",
+      "nutrient_basis": "Available N, P, and K in kg/ha as labeled by TNAU. The chart does not identify extraction methods or fully specify elemental versus oxide basis; confirm compatibility with the report before use. pH, organic-carbon, moisture, and EC cutoffs remain unconfigured.",
+      "sources": [
+        {
+          "title": "Tamil Nadu Agricultural University — Rating Chart for Soil Test Data",
+          "url": "https://agritech.tnau.ac.in/agriculture/agri_soil_soilratingchart.html"
+        }
+      ],
+      "thresholds": {
+        "nutrients": {
+          "nitrogen": {
+            "low_upper": 240,
+            "medium_upper": 480
+          },
+          "phosphorus": {
+            "low_upper": 11,
+            "medium_upper": 22
+          },
+          "potassium": {
+            "low_upper": 110,
+            "medium_upper": 280
+          }
+        },
+        "ph": {
+          "acidic_upper": null,
+          "alkaline_lower": null
+        },
+        "organic_carbon": {
+          "low_upper": null,
+          "medium_upper": null
+        },
+        "moisture": {
+          "dry_upper": null,
+          "wet_lower": null
+        }
+      }
+    }
+  ],
+  "crop_profiles": [],
+  "crop_scoring": {
+    "ph_weight": 0.6,
+    "soil_type_weight": 0.25,
+    "nutrient_weight": 0.15,
+    "ph_distance_penalty": 30
+  }
+}

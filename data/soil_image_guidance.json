@@ -1,0 +1,180 @@
+{
+  "source": {
+    "title": "Soil Classification Dataset (seven original image classes)",
+    "url": "https://github.com/Phantom-fs/Soil-Classification-Dataset"
+  },
+  "classes": {
+    "Alluvial Soil": {
+      "description": "A broad label for soil material deposited by flowing water. Texture and fertility vary by site.",
+      "characteristics": [
+        "May range from coarse sand to fine silt or clay.",
+        "An image cannot establish depth, drainage, fertility, or flood risk."
+      ],
+      "advantages": [
+        "Some deep, well-managed alluvial soils support a wide range of crops."
+      ],
+      "limitations": [
+        "Flooding, erosion, coarse texture, or poor drainage may occur depending on the site."
+      ],
+      "improvements": [
+        "Use a representative soil test before changing nutrients or pH.",
+        "Maintain ground cover and assess field drainage and flood exposure."
+      ],
+      "crop_guidance": {
+        "crops": [
+          "Paddy (rice)",
+          "Wheat",
+          "Sugarcane",
+          "Other cereals and pulses"
+        ],
+        "note": "NCERT lists these as crops suited to alluvial soils in general. They are examples, not a location-specific recommendation; confirm season, water, and local conditions.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Alluvial Soils",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Arid Soil": {
+      "description": "A dataset label associated with arid-region soils; it does not by itself identify salinity or water-holding capacity.",
+      "characteristics": [
+        "Water availability and organic matter can be limiting in dry settings.",
+        "Salt accumulation is possible in some irrigated areas but must be measured."
+      ],
+      "advantages": [
+        "Crop choices can be adapted to locally verified rainfall and irrigation availability."
+      ],
+      "limitations": [
+        "Water stress and salt risk vary substantially between fields."
+      ],
+      "improvements": [
+        "Check soil electrical conductivity and irrigation-water quality before treatment.",
+        "Use locally appropriate mulch, residue cover, and erosion control."
+      ],
+      "crop_guidance": {
+        "crops": [],
+        "note": "The NCERT source says arid soils can become cultivable with proper irrigation, but does not give a universal crop list. Crop choice also depends on local water availability and salinity, neither of which this image measures.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Arid Soils",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Black Soil": {
+      "description": "A visual class often associated with dark, clay-rich soils; the image does not confirm clay content or shrink-swell behavior.",
+      "characteristics": [
+        "Some black soils retain substantial water and may crack when dry.",
+        "Workability and drainage depend on the actual texture and field condition."
+      ],
+      "advantages": [
+        "Water storage can benefit crops when soil structure and drainage are suitable."
+      ],
+      "limitations": [
+        "Wet soil may drain or dry slowly; cracking and difficult tillage can occur."
+      ],
+      "improvements": [
+        "Avoid working saturated soil and check field drainage.",
+        "Use soil-test results and local guidance before nutrient or pH amendments."
+      ],
+      "crop_guidance": {
+        "crops": [
+          "Cotton"
+        ],
+        "note": "NCERT identifies black soil as suitable for cotton. The photo label does not confirm soil depth, texture, drainage, or local climate; verify those before planting.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Black Soil",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Laterite Soil": {
+      "description": "A broad weathered-soil label. Acidity, nutrient status, depth, and texture are not determined from a photograph.",
+      "characteristics": [
+        "Highly weathered profiles can vary widely in nutrient retention and drainage.",
+        "A red or yellow appearance is not a measurement of soil chemistry."
+      ],
+      "advantages": [
+        "Crop performance depends on local depth, water supply, and verified soil properties."
+      ],
+      "limitations": [
+        "Leaching, acidity, shallow depth, or low nutrient reserves may occur at some sites."
+      ],
+      "improvements": [
+        "Test pH and available nutrients before selecting amendments.",
+        "Keep soil covered and manage runoff on sloping land."
+      ],
+      "crop_guidance": {
+        "crops": [
+          "Tea",
+          "Coffee",
+          "Cashew nut"
+        ],
+        "note": "NCERT describes tea and coffee as options with appropriate soil conservation, and cashew for red laterite soils in parts of Tamil Nadu, Andhra Pradesh, and Kerala. Check local suitability; the image label does not confirm these conditions.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Laterite Soil",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Mountain Soil": {
+      "description": "A broad landscape label for mountain-region soils; properties vary with parent material, slope, and elevation.",
+      "characteristics": [
+        "Soil depth, stoniness, drainage, and temperature can change over short distances.",
+        "A photograph cannot measure slope stability or erosion risk."
+      ],
+      "advantages": [
+        "Suitability depends on the specific site and locally adapted crops."
+      ],
+      "limitations": [
+        "Shallow soils, steep slopes, and erosion may constrain cultivation."
+      ],
+      "improvements": [
+        "Use contour-aligned cover and avoid exposing steep soil to runoff.",
+        "Check soil depth, drainage, and local land-use guidance."
+      ],
+      "crop_guidance": {
+        "crops": [],
+        "note": "Mountain soils vary with elevation, slope, and valley position. The cited NCERT source does not give one crop list for this broad label; use local altitude- and season-specific agricultural guidance.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Forest Soils",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Red Soil": {
+      "description": "A broad visual class commonly associated with iron-oxide coloration; texture and fertility vary.",
+      "characteristics": [
+        "Color alone cannot establish nutrient supply, organic matter, or water retention.",
+        "Texture and drainage should be checked in the field or with a soil test."
+      ],
+      "advantages": [
+        "Crop choice can be matched to measured soil properties and local rainfall."
+      ],
+      "limitations": [
+        "Some sites have low organic matter or limited water retention, but this is not universal."
+      ],
+      "improvements": [
+        "Use soil-test results to guide nutrients and pH management.",
+        "Retain crop residue and use cover to reduce erosion and moisture loss."
+      ],
+      "crop_guidance": {
+        "crops": [],
+        "note": "The cited NCERT source describes red soils but does not provide a universal crop list. Crop choice needs local rainfall, texture, irrigation, and season information; soil colour alone is not enough.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Red and Yellow Soils",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    },
+    "Yellow Soil": {
+      "description": "A broad visual class associated with yellowish coloration. Drainage, texture, and nutrient status cannot be inferred reliably from color alone.",
+      "characteristics": [
+        "Color may be affected by minerals, moisture, and drainage conditions.",
+        "The model label does not determine soil fertility or crop suitability."
+      ],
+      "advantages": [
+        "Potential uses depend on measured properties and local climate."
+      ],
+      "limitations": [
+        "A photograph cannot distinguish nutrient deficiency, waterlogging, or other causes of color."
+      ],
+      "improvements": [
+        "Confirm texture, pH, and nutrients with a representative soil test.",
+        "Maintain ground cover and manage drainage based on field observations."
+      ],
+      "crop_guidance": {
+        "crops": [],
+        "note": "NCERT discusses yellow soil together with red soil and gives no separate universal crop list. This visual class alone is insufficient to identify suitable crops; check local soil and climate guidance.",
+        "source_title": "NCERT, Contemporary India-II, Chapter 1: Resources and Development — Red and Yellow Soils",
+        "source_url": "https://ncert.nic.in/textbook/pdf/jess101.pdf"
+      }
+    }
+  }
+}
