@@ -1,0 +1,39 @@
+{
+  "model_version": "supplied-soil-classifier",
+  "architecture": "MobileNetV2",
+  "image_size": [
+    224,
+    224
+  ],
+  "dataset_url": "https://github.com/Phantom-fs/Soil-Classification-Dataset",
+  "dataset_subset": "Original-Dataset",
+  "class_names": [
+    "Alluvial Soil",
+    "Arid Soil",
+    "Black Soil",
+    "Laterite Soil",
+    "Mountain Soil",
+    "Red Soil",
+    "Yellow Soil"
+  ],
+  "source_class_names": [
+    "Alluvial_Soil",
+    "Arid_Soil",
+    "Black_Soil",
+    "Laterite_Soil",
+    "Mountain_Soil",
+    "Red_Soil",
+    "Yellow_Soil"
+  ],
+  "training_metrics_source": "soil_training_metrics.json",
+  "train_images": 832,
+  "validation_images": 178,
+  "test_images": 179,
+  "test_metrics": {
+    "accuracy": 0.826815664768219,
+    "loss": 0.47866275906562805
+  },
+  "uncertainty_threshold": 0.55,
+  "uncertainty_margin": 0.1,
+  "uncertainty_note": "Starting thresholds are not independently calibrated and cannot reliably detect out-of-distribution or non-soil images."
+}
